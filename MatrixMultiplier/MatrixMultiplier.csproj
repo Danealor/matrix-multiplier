@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\matrix-expressions\MatrixExpressions\MatrixExpressions.csproj" />
+  </ItemGroup>
+
 </Project>
