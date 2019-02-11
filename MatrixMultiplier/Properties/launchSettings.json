@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MatrixMultiplier": {
+      "commandName": "Project",
+      "commandLineArgs": "test"
+    }
+  }
+}
