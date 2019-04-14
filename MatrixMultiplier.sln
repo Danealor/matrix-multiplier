@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplier", "MatrixM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixExpressions", "..\matrix-expressions\MatrixExpressions\MatrixExpressions.csproj", "{E05CC4F1-2078-4674-AE64-9B2691485A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButterflyMatrices", "ButterflyMatrix\ButterflyMatrices.csproj", "{D1E2B5AE-A9C1-42A9-A181-5DB22D9B07E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solver", "Solver\Solver.csproj", "{0C413C3F-053B-4413-8E57-DCA38240621C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E05CC4F1-2078-4674-AE64-9B2691485A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E05CC4F1-2078-4674-AE64-9B2691485A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E05CC4F1-2078-4674-AE64-9B2691485A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E2B5AE-A9C1-42A9-A181-5DB22D9B07E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E2B5AE-A9C1-42A9-A181-5DB22D9B07E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E2B5AE-A9C1-42A9-A181-5DB22D9B07E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E2B5AE-A9C1-42A9-A181-5DB22D9B07E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C413C3F-053B-4413-8E57-DCA38240621C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C413C3F-053B-4413-8E57-DCA38240621C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C413C3F-053B-4413-8E57-DCA38240621C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C413C3F-053B-4413-8E57-DCA38240621C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

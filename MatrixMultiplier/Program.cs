@@ -1,6 +1,8 @@
-﻿using MatrixExpressions;
+﻿using ButterflyMatrices;
+using MatrixExpressions;
 using System;
 using System.IO;
+using System.Linq;
 
 namespace MatrixMultiplier
 {
@@ -37,11 +39,10 @@ namespace MatrixMultiplier
                 outfile = args[1];
             }
 
-            LimitedPrimeSieve primeSieve = new AtkinsSieve();
-            foreach (int p in primeSieve.TakeUpTo(10000))
-            {
-                Console.WriteLine(p);
-            }
+            DictArrayVariableStore store = new DictArrayVariableStore();
+            Matrix matrix = ButterflyMatrix.Generate(8, "b", store).Take(5).Create().Product(); // less memory than .Product().Create()
+
+            Console.WriteLine(matrix.ToString(store));
 
             Console.ReadLine();
 
